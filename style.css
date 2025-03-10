@@ -59,3 +59,14 @@ h2{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); }
+
+    @media (max-width: 991px) {
+        .social-media {
+            width: 60%;  /* Increase width for better readability */
+        }
+        
+        .bubble {
+            width: 90%;  /* Make buttons more accessible */
+        }
+    }
+    
