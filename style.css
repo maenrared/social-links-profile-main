@@ -60,27 +60,15 @@ h2{
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
-/* Responsive Design */
-@media (max-width: 991px) {
-    .main {
-        height: auto;
-        padding: 20px;
+    @media (max-width: 375px) {
+        .bubble {
+            width: 90%;
+        }
     }
-    .bubble {
-        width: 70%;
+    
+    @media (max-width: 767px) {
+        .bubble {
+            width: 80%;
+        }
     }
-}
-
-@media (max-width: 767px) {
-    .bubble {
-        width: 80%;
-    }
-}
-
-@media (max-width: 375px) {
-    .bubble {
-        width: 90%;
-    }
-}
-
-       
+    
