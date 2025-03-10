@@ -64,12 +64,12 @@ h2{
  /* Responsive Design */
 @media (max-width: 480px) {
     .social-media {
-        width: 80%; /* Make it full width for smaller screens */
+        width: 80%; 
         padding: 15px;
     }
 
     .bubble {
-        width: 100%; /* Make buttons full width */
+        width: 100%; 
     }
 }
 
