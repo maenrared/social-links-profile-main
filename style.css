@@ -64,7 +64,7 @@ h2{
  /* Responsive Design */
 @media (max-width: 480px) {
     .social-media {
-        width: 90%; /* Make it full width for smaller screens */
+        width: 80%; /* Make it full width for smaller screens */
         padding: 15px;
     }
 
