@@ -60,26 +60,25 @@ h2{
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
-/* Responsive Design */
-@media (max-width: 991px) {
-    .main {
-        height: auto;
-        padding: 20px;
+
+ /* Responsive Design */
+@media (max-width: 480px) {
+    .social-media {
+        width: 90%; /* Make it full width for smaller screens */
+        padding: 15px;
     }
+
     .bubble {
-        width: 70%;
+        width: 100%; /* Make buttons full width */
     }
 }
 
-@media (max-width: 767px) {
-    .bubble {
-        width: 80%;
-    }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
 }
 
-@media (max-width: 375px) {
-    .bubble {
-        width: 90%;
-    }
-}
-    
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}   
